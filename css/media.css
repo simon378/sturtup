@@ -1,0 +1,75 @@
+@media (max-width: 1199.98px){
+    .post-header,
+    .blog .text{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 991.98px){
+    .services .row{
+        justify-content: center;
+    }
+    .blog .col-xl-5{
+        margin-bottom: 30px;
+    }
+    .sponsors-block img{
+        margin: 15px;
+    }
+    .sponsors-block{
+        justify-content: center;
+    }
+    .contact button{
+        margin: 0 auto 30px;
+    }
+    .contact form p{
+        margin: 0 auto;
+        width: 100%;
+        justify-content: center;
+    }
+}
+@media (max-width: 767.98px){
+    header{
+        padding-bottom: 150px;
+    }
+    h1{
+        margin-top: 150px;
+        font-size: 42px;
+    }
+    section,
+    footer{
+        padding: 50px 0;
+    }
+    .cervices .col-xl-4:not(:last-child){
+        margin-bottom: 30px;
+    }
+    .about .col-xl-6:not(:last-child){
+        margin-bottom: 30px;
+    }
+    .works{
+        padding-bottom: 30px;
+    }
+    .contact .col-xl-3{
+        display: flex;
+    }
+}
+@media (max-width: 575.98px){
+    .like p{
+        font-size: 20px;
+    }
+    .post-header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .post-date{
+        margin: 0 0 20px;
+    }
+    .post-text h5{
+        font-size: 14px;
+    }
+    .contact input{
+        width: 1005px;
+    }
+    .contact .col-xl-3{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}
